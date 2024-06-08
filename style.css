@@ -1,0 +1,86 @@
+body{
+    background-size:cover;
+    position: relative;
+    
+}
+body::before {
+    content: '';
+    background-image: url(./assets/spiderNYC.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    inset: 0;
+    opacity: 0.6;
+}
+.different-color {
+    color: rgb(28, 28, 189);
+}
+h1{
+    isolation: isolate;
+    color: rgb(184, 13, 13);
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+h2{
+    isolation: isolate;
+    text-decoration:underline;
+}
+.spidy {
+    box-sizing: border-box;
+    width: 1298px;
+    height: 250px;
+    margin-left: 20px;
+    position: relative;
+
+    border: 2px solid #000000;
+    padding: 10px;
+    display: grid;
+    position: relative;
+    background-color:rgb(236, 233, 233);
+    
+}
+.spidy::before {
+    content: '';
+    background: url(./assets/daily\ bugel.jpeg) center;
+    background-size: contain;
+    position:absolute;
+    inset: 0;
+    opacity: 0.3;
+}
+
+ #bio{
+    color: black;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-indent: 10px;
+    font-size: 18.5px;
+    font-weight: 1000;
+    letter-spacing:1.5px;
+    line-height:22px;
+    isolation: isolate;
+  }
+#peter,#actors1, #actors2, #actors3, #actors4 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height:22px;
+    text-indent: 15px;
+    isolation: isolate;
+}
+.row {
+    isolation: isolate;
+    margin-left: 75px;
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+
+}
+img {
+    border: 5px solid #a13e3e;
+}
+

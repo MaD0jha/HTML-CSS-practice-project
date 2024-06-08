@@ -1,0 +1,30 @@
+body {
+    background-size:cover;
+    position: relative;
+}
+body::before {
+    content: '';
+    background-image: url(./assets/andrewSpider.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    inset: 0;
+    opacity: 0.35;
+}
+h1 {
+    isolation: isolate;
+    color: rgb(184, 13, 13);
+    text-decoration: underline;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+#andrew, #movie, #villains, #titles, #gwen {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height:27px;
+    text-indent: 20px;
+    isolation: isolate;
+}
